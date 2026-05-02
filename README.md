@@ -5,6 +5,193 @@ Assunto escolhido foi as funções trignométricas, por conta que é um tema que
 onde precisei de um empenho maior para aprender, e com meu esforço e emprenho no fim consegui aprender e tirar notas excelentes nas provas. 
 Então gostaria de relembrar esse tema de forma carinhosa desse tempo que passou!
 
+
+Links das Fontes: 
+
+https://www.todamateria.com.br/funcoes-trigonometricas/
+
+https://brasilescola.uol.com.br/matematica/funcoes-trigonometricas-1.htm
+
+https://pt.khanacademy.org/math/trigonometry/unit-circle-trig-func
+
+
+📘 Teste de Prompts – Funções Trigonométricas
+🔹 Diferenças entre seno, cosseno e tangente
+Definição no ciclo trigonométrico:
+
+Seno: ordenada (eixo y).
+
+Cosseno: abscissa (eixo x).
+
+Tangente: razão 
+tan
+⁡
+𝑥
+=
+sin
+⁡
+𝑥
+cos
+⁡
+𝑥
+.
+
+Domínio e Imagem:
+
+Seno e Cosseno: domínio 
+𝑅
+, imagem 
+[
+−
+1
+,
+1
+]
+.
+
+Tangente: domínio 
+𝑅
+∖
+{
+𝜋
+2
++
+𝑘
+𝜋
+}
+, imagem 
+𝑅
+.
+
+Período e Paridade:
+
+Seno e Cosseno: período 
+2
+𝜋
+.
+
+Tangente: período 
+𝜋
+.
+
+Paridade: seno e tangente são ímpares; cosseno é par.
+
+Comportamento nos quadrantes:
+
+Seno: positivo em I e II.
+
+Cosseno: positivo em I e IV.
+
+Tangente: positiva em I e III, sempre crescente.
+
+Gráficos:
+
+Seno: senoide.
+
+Cosseno: cossenoide.
+
+Tangente: tangentoide com assíntotas verticais.
+
+🔹 Multiplicar seno “por fora” ou “por dentro”
+Por fora (
+𝑏
+⋅
+sin
+⁡
+𝑥
+):
+
+Afeta a amplitude vertical.
+
+Expansão se 
+∣
+𝑏
+∣
+>
+1
+; contração se 
+0
+<
+∣
+𝑏
+∣
+<
+1
+.
+
+Se 
+𝑏
+<
+0
+, há inversão de fase.
+
+Por dentro (
+sin
+⁡
+(
+𝑐
+⋅
+𝑥
+)
+):
+
+Afeta o período/frequência horizontal.
+
+Se 
+𝑐
+>
+1
+, contração horizontal (mais ciclos).
+
+Se 
+0
+<
+𝑐
+<
+1
+, expansão horizontal (menos ciclos).
+
+Novo período: 
+𝑇
+=
+2
+𝜋
+∣
+𝑐
+∣
+.
+
+🔹 Situações da vida real
+Saúde: pressão arterial, batimentos cardíacos.
+
+Natureza: marés, variação de temperatura, luz solar.
+
+Economia: preços sazonais, oscilações de mercado.
+
+Engenharia/Navegação: cálculo de distâncias, movimento circular.
+
+Física: intensidade luminosa, ondas.
+
+🔹 Aplicação em programação (Python)
+Exemplo: modelagem da pressão arterial
+
+python
+import math
+
+# Parâmetros
+a = 99      # valor médio
+b = 21      # amplitude
+k = 3 * math.pi  # frequência (90 bpm)
+
+def calcular_pressao(t):
+    return a + b * math.cos(k * t)
+
+# Exemplo de uso
+t = 0.5
+print(f"Pressão no instante {t}s: {calcular_pressao(t):.2f} mmHg")
+
+
+
 📘 RESUMO SOBRE AS FUNÇÕES TRIGONOMÉTRICAS
 
 1. Conceito
