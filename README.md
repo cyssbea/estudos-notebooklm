@@ -6,6 +6,7 @@ onde precisei de um empenho maior para aprender, e com meu esforço e emprenho n
 Então gostaria de relembrar esse tema de forma carinhosa desse tempo que passou!
 
 📘 RESUMO SOBRE AS FUNÇÕES TRIGONOMÉTRICAS
+
 1. Conceito
 As funções trigonométricas relacionam ângulos com razões entre lados de triângulos retângulos. Elas são periódicas e fundamentais para descrever fenômenos cíclicos como ondas, oscilações e movimentos circulares.
 
@@ -54,6 +55,7 @@ Praticar aplicações em problemas reais e exercícios.
 
 
 📘 Glossário – Funções Trigonométricas
+
 🔹 Função Seno
 Definição: Relaciona o valor de um ângulo com a ordenada (y) do ponto correspondente no ciclo trigonométrico.
 
@@ -337,8 +339,6 @@ arctan
 .
 
 - CONJUNTO DE PROMPTS -
-
-Engenharia de Prompts: 
 
 Quais as principais diferenças entre as funções seno, cosseno e tangente?
 
